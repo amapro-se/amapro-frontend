@@ -1,6 +1,6 @@
 {
-  "name": "Amapro Font-end",
-  "short_name": "Amapro FE",
+  "name": "Front-end setup App",
+  "short_name": "FE setup App",
   "start_url": "/",
   "display": "standalone"
 }

@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Amapro Font-end",
-  description: "Amapro Font-end",
+  title: "Font-end setup App",
+  description: "Front-end setup",
   manifest: "/manifest.json",
 };
 
