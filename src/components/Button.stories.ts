@@ -14,3 +14,17 @@ export const Default: Story = {
     label: "버튼이요!",
   },
 };
+
+export const Disabled: Story = {
+  args: {
+    label: "비활성화됨",
+    disabled: true,
+  },
+};
+
+export const Primary: Story = {
+  args: {
+    label: "확인",
+    variant: "primary",
+  },
+};

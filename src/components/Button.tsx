@@ -1,5 +1,7 @@
 type ButtonProps = {
   label: string;
+  disabled?: boolean;
+  variant?: string;
 };
 
 export function Button({ label }: ButtonProps) {
