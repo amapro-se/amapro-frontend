@@ -1,1 +1,1 @@
-Amapro Front-end
+amapro-frontend
