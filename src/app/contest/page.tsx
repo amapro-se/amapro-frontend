@@ -1,11 +1,12 @@
 import { SearchBar } from '@/components/SearchBar';
+import { PageMainTitle } from '@/components/PageMainTitle';
 
 export function ContestListPage() {
   return (
     <>
       <div className="bg-zinc-900 pb-4">
         {/* 메인 타이틀 */}
-        <div className="text-white text-[40px] font-extrabold text-center">CONTEST LIST</div>
+        <PageMainTitle title="CONTEST LIST" />
         {/* 검색창 */}
         <SearchBar />
       </div>
