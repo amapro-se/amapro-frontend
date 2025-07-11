@@ -1,5 +1,5 @@
-declare module "next-pwa" {
-  import type { NextConfig } from "next";
+declare module 'next-pwa' {
+  import type { NextConfig } from 'next';
 
   type WithPwa = (config: NextConfig) => NextConfig;
 
