@@ -1,5 +1,6 @@
 import { SearchBar } from '@/components/SearchBar';
 import { PageMainTitle } from '@/components/PageMainTitle';
+import { PageSubTitle } from '@/components/PageSubTitle';
 
 export function ContestListPage() {
   return (
@@ -12,7 +13,7 @@ export function ContestListPage() {
       </div>
       <div className="mx-8">
         {/* 서브 타이틀 */}
-        <div className="font-semibold text-sm mt-8">추천 프로젝트</div>
+        <PageSubTitle title="추천 공모전" />
         {/* 리스트 */}
         <div className="mt-4 grid grid-cols-2 gap-1 rounded-md">
           <div className="h-60 bg-zinc-400 rounded-md"></div>
