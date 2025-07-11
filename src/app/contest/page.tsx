@@ -1,3 +1,5 @@
+import { SearchBar } from '@/components/SearchBar';
+
 export function ContestListPage() {
   return (
     <>
@@ -5,9 +7,7 @@ export function ContestListPage() {
         {/* 메인 타이틀 */}
         <div className="text-white text-[40px] font-extrabold text-center">CONTEST LIST</div>
         {/* 검색창 */}
-        <div>
-          <div className="bg-zinc-400 w-5/6 h-8 mx-auto rounded-md my-4"></div>
-        </div>
+        <SearchBar />
       </div>
       <div className="mx-8">
         {/* 서브 타이틀 */}
