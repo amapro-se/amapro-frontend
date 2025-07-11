@@ -1,6 +1,7 @@
 import { SearchBar } from '@/components/SearchBar';
 import { PageMainTitle } from '@/components/PageMainTitle';
 import { PageSubTitle } from '@/components/PageSubTitle';
+import { ContestCard } from '@/components/contest/ContestCard';
 
 export function ContestListPage() {
   return (
@@ -16,12 +17,12 @@ export function ContestListPage() {
         <PageSubTitle title="추천 공모전" />
         {/* 리스트 */}
         <div className="mt-4 grid grid-cols-2 gap-1 rounded-md">
-          <div className="h-60 bg-zinc-400 rounded-md"></div>
-          <div className="h-60 bg-zinc-400 rounded-md"></div>
-          <div className="h-60 bg-zinc-400 rounded-md"></div>
-          <div className="h-60 bg-zinc-400 rounded-md"></div>
-          <div className="h-60 bg-zinc-400 rounded-md"></div>
-          <div className="h-60 bg-zinc-400 rounded-md"></div>
+          <ContestCard title="공모전 제목" content="공모전 내용" />
+          <ContestCard title="공모전 제목" content="공모전 내용" />
+          <ContestCard title="공모전 제목" content="공모전 내용" />
+          <ContestCard title="공모전 제목" content="공모전 내용" />
+          <ContestCard title="공모전 제목" content="공모전 내용" />
+          <ContestCard title="공모전 제목" content="공모전 내용" />
         </div>
       </div>
     </>
