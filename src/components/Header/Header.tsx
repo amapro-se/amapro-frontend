@@ -5,7 +5,7 @@ import { HeaderUserButton } from './buttons/HeaderUserButton';
 
 export function Header() {
   return (
-    <header className="w-full h-20 py-4 px-6 bg-zinc-900 text-white flex items-center justify-between relative">
+    <header className="w-full h-20 pt-4 px-6 bg-zinc-900 text-white flex items-center justify-between relative">
       {/* 왼쪽 버튼 */}
       <HeaderMenuButton />
 

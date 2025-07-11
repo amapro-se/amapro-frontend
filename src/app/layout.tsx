@@ -29,7 +29,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="min-h-screen flex flex-col justify-between">
         <Header />
-        <main className="flex-grow container mx-auto px-4">{children}</main>
+        <main className="flex-grow">{children}</main>
         <Footer />
       </body>
     </html>
