@@ -9,6 +9,10 @@ export function ContestListPage() {
           <div className="bg-zinc-400 w-5/6 h-8 mx-auto rounded-md my-4"></div>
         </div>
       </div>
+      <div className="mx-8">
+        {/* 서브 타이틀 */}
+        <div className="font-semibold text-sm mt-8">추천 프로젝트</div>
+      </div>
     </>
   );
 }
