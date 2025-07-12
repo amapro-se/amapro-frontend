@@ -25,6 +25,6 @@ jobs:
         run: |
           yarn lint
 
-      # - name: Run test
-      #   run: |
-      #     yarn test
+      - name: Run test
+        run: |
+          yarn test
